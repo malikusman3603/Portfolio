@@ -20,12 +20,15 @@ It includes smooth scroll animations and a clean modern dark design. The project
 ## Folder Structure
 Portfolio/
 │
-├── index.html        # Home page  
-├── main.html         # Main portfolio page  
-├── style.css         # Styling for all pages  
-├── script.js         # Smooth scroll and animations  
-├── images            # Folder for your personal images  
-└── README.md         # Project information
+├── index.html                 # Home page  
+├── README.md                  # Project information
+├── Media                      # Project Assests
+    ├──main.html               # Main portfolio page 
+    ├──css/style.css           # Styling for all pages   
+    ├──js/script.js            # Smooth scroll and animations  
+    ├──Assests/images          # Folder for your personal images   
+
+                 
 
 
 
