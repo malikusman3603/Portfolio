@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  background-color: #0b0f19;
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid #00b4d8;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: #00b4d8;
+  color: #0b0f19;
+}
+
+.btn.secondary {
+  color: #00b4d8;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #00b4d8;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #0b0f19;
+  position: sticky;
+  gap:150px;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 75px;
+}
+.detail_port{max-width: 66%;
+    padding: 25px 0px;
+
+}
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00b4d8;
+}
+
+/* Hero */
+.hero {
+  padding:0px 100px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle at top, #0b0f19 0%, #000 100%);
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  gap: 40px;
+}
+
+.hero-img img {
+  width: 280px;
+  border-radius: 50%;
+  border: 3px solid #00b4d8;
+  box-shadow: 0 0 20px #00b4d8;
+}
+.main-image img{
+ max-width: 70%;
+  border-radius: 50%; 
+  border: 3px solid #00b4d8;
+  box-shadow: 0 0 20px #00b4d8;
+}
+/* Sections */
+.about, .journey, .skills, .contact {
+  padding: 80px 80px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.about-text, a,h3,p{
+    margin:10px 0px;
+}
+.about-content img {
+  width: 220px;
+  border-radius: 50%;
+  border: 2px solid #00b4d8;
+  box-shadow: 0 0 15px #00b4d8;
+}
+
+/* Journey */
+.journey-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.journey-box {
+  background: #121826;
+  padding: 30px;
+  border-radius: 10px;
+  width: 48%;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.skill-box {
+  background: #121826;
+  padding: 30px;
+  border-radius: 10px;
+  width: 48%;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill p {
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #1e293b;
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: #00b4d8;
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  background: #121826;
+  border: 1px solid #00b4d8;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #121826;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* HOME PAGE STYLE */
+.home-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(circle at top, #0b0f19 0%, #000 100%);
+  text-align: center;
+}
+
+.home-container {
+  max-width: 600px;
+}
+
+.home-container h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.home-container span {
+  color: #00b4d8;
+}
+
+.home-container p {
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+/* Fade-in Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  margin-top: 50px;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .hero-content, .about-content, .journey-container, .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .journey-box, .skill-box {
+    width: 100%;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+}
