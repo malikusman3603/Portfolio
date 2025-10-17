@@ -104,8 +104,8 @@ nav {
 .main-image img{
  max-width: 70%;
   border-radius: 50%; 
-  border: 3px solid #00b4d8;
-  box-shadow: 0 0 20px #00b4d8;
+  border: 5px solid #00b4d8;
+  box-shadow: 0 0 30px #00b4d8;
 }
 /* Sections */
 .about, .journey, .skills, .contact {
