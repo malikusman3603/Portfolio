@@ -7,12 +7,12 @@ It includes smooth scroll animations and a clean modern dark design. The project
 
 ## Features
 This is my first change using a new branch!
-This is my first change using a new branch!
 - Fully responsive layout (mobile, tablet, desktop)
 - Smooth scrolling animation
 - Animated skill bars
 - Contact form
 - Easy to customize text, colors, and images
+Merge new-feature into main
 
 ## Technologies Used
 - HTML5
