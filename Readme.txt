@@ -6,6 +6,7 @@ It includes smooth scroll animations and a clean modern dark design. The project
 2. main.html – Detailed page (education, experience, and journey).
 
 ## Features
+This is my first change using a new branch!
 - Fully responsive layout (mobile, tablet, desktop)
 - Smooth scrolling animation
 - Animated skill bars
