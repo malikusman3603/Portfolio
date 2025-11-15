@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | M.Usman</title>
+  <link rel="icon" type="image/png" href="./media/Assets/Favicon.png">
+
+  <style>
+    /* --- Reset --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+      /* Apply to any element, like body, div, etc. */
+background: linear-gradient(to bottom, #0b0f19, #000000);
+      color: #fff;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+      display: inline-block;
+      padding: 10px 25px;
+      border-radius: 10px;
+      border: 1px solid #00b4d8;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+
+    .btn.primary {
+      background: #00b4d8;
+      color: #0b0f19;
+    }
+
+    .btn:hover {
+      background: transparent;
+      color: #00b4d8;
+    }
+
+    /* --- Layout --- */
+    .home-container {
+      max-width: 600px;
+    }
+
+    .home-container h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .home-container span {
+      color: #00b4d8;
+    }
+
+    .home-container p {
+      color: #bbb;
+      margin-bottom: 30px;
+    }
+
+    /* --- Image --- */
+    .main-image img {
+      width: 60%;
+      border-radius: 50%;
+      border: 4px solid #00b4d8;
+      box-shadow: 0 0 25px #00b4d8;
+      margin-top: 30px;
+    }
+
+    /* --- Animations --- */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeIn 1s ease-out forwards;
+    }
+
+    .slide-up {
+      opacity: 0;
+      transform: translateY(40px);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="home-container fade-in">
+    <h1>Welcome to <span>Muhammad Usman Portfolio</span></h1>
+    <p>Explore my work, skills, and experience as a Frontend Developer.</p>
+    <a href="./main.html" class="btn primary">Enter Portfolio</a>
+  </div>
+
+  <div class="main-image slide-up">
+    <img src="../media/Assets/profile3.jpg" alt="Your Profile Picture">
+  </div>
+
+</body>
+</html>
